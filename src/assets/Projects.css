@@ -1,0 +1,97 @@
+.table{
+    display:block;
+    margin-left:7%;
+    margin-right:auto;
+    width:100% !important;
+}
+
+.statusFilter{
+    display:flex; 
+    justify-content: space-evenly;
+    width:82%;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.statusFilter>button{
+    margin-left:3%;
+    margin-right:3%;
+}
+
+.statusFilterButton{
+    background-color: transparent;
+    border:none;
+    border-radius: 10rem;
+    outline:none;
+    height:32px;
+}
+
+.filterButton{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border:1px solid transparent;
+    border-radius: 10rem;
+    outline:none;
+    margin-left:3.5%;
+    margin-right:3.5%;
+    color:blue;
+    font-weight:800;
+    width:5%;
+}
+
+.filterButton:hover{
+    background-color: blue;
+    color:white;
+    border:1px solid transparent;
+}
+
+.otherFilters{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100%;
+    margin-bottom:30px;
+}
+
+.filter{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:20%;
+}
+
+.filter>p{
+    display:flex;
+    margin-right:20px;
+    margin-bottom:1px !important;
+}
+
+.projectStatus{
+    font-weight: 900;
+    filter:brightness(100%);
+}
+
+.in_progress{
+    color:rgb(89, 129, 123);
+}
+
+.completed{
+    color:rgb(162, 185, 101);
+}
+
+.cancelled{
+    color:rgb(179, 87, 82);
+}
+
+.textInput{
+    width:50%;
+    height:30px;
+    font-size:14px;
+}
+
+.textField{
+    font-size: 15px;
+    font-weight:800;
+}

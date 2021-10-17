@@ -1,0 +1,41 @@
+.materialsWrapper {
+  height: 80%;
+  width: 75%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-top: 4%;
+  border: 2px black solid;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 24px 25px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.materialOrMachineryIcon {
+  margin-bottom: 20%;
+}
+
+.textElementMaterials {
+  font-weight: 600;
+  margin-bottom: 2%;
+}
+
+.wrapperInventoryBar{
+  height:10px;
+  width:100px;
+  border:1px solid black;
+  border-radius: 10rem;
+  background:transparent; 
+  display:block; 
+  margin-top:10px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.innerInventoryBar{
+  border-radius: 10rem;
+  height:8px;
+  background:rgb(64, 64, 105);
+  display:block; 
+  margin-right:auto;
+}
