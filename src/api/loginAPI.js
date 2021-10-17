@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const baseUrl = `http://localhost:8979`;
+const cms = process.env.CMS_API;
+const baseUrl = `${cms}`;
 
 const API = {
   // @login

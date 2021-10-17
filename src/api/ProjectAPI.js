@@ -1,5 +1,7 @@
 import axios from 'axios';
-const baseUrl = `http://localhost:8979/api/projects`;
+
+const cms = process.env.CMS_API;
+const baseUrl = `${cms}/api/projects`;
 
 const projectAPI = {
   getAllProjects: (roomType, name) => {

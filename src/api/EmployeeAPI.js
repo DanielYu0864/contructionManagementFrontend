@@ -1,5 +1,6 @@
 import axios from 'axios';
-const baseUrl = `http://localhost:8979/api/employees`;
+const cms = process.env.CMS_API;
+const baseUrl = `${cms}/api/employees`;
 
 const employeeAPI = {
   getAllEmployees: () => {
@@ -21,7 +22,7 @@ const employeeAPI = {
     return axios.get(`${baseUrl}/findByTitle/${title}`);
   },
   updatePassword: async (id, newPassword) => {
-    const res = await axios.put(`http://localhost:8979/api/resetPassword`, {
+    const res = await axios.put(`${cms}/api/resetPassword`, {
       id: id,
       password: newPassword,
     });
